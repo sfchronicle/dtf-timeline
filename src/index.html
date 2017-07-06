@@ -1,0 +1,97 @@
+<!-- build:remove -->
+<%= t.include("partials/_top.html") %>
+<!-- /build -->
+<!-- build:css inline -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- /build -->
+
+
+
+
+
+<!-- Code that goes within WCM Freeform -->
+
+<script type="text/javascript">
+  $(window).scroll(function() {
+    
+  var window_top = document.body.scrollTop;
+  var div_top = document.getElementById('stick-here').getBoundingClientRect().top + window_top;
+
+  for (var i = 0; i < 19; i++) {
+    var a = document.getElementById(i);
+    var at = document.getElementById(i);
+    if (i == 19) {
+      var ed_top = a.getBoundingClientRect().top + window_top - 100;
+      var ede_top = a.getBoundingClientRect().bottom + window_top - 135;
+    } else {
+      var ed_top = a.getBoundingClientRect().top + window_top - 100;
+      var ede_top = a.getBoundingClientRect().bottom + window_top - 100;
+    }
+
+    if (window_top > ed_top && window_top < ede_top) {
+      at.classList.add('active');
+      a.classList.add('active');
+    } else {
+      at.classList.remove('active');
+      a.classList.remove('active');
+    }
+  }
+});
+</script>
+
+
+<div class="dtf-header">
+	<p>TIMELINE</p>
+	<h1>Driving the future</h1>
+	<div class="deck">Lorem ipsum dolor sit amet, an adolescens reprehendunt eum, legimus laboramus percipitur mei eu, ut saperet mnesarchum elaboraret quo.</div>
+</div>
+
+
+<div class="timeline" id="timeline">
+  <div id="stick-here"></div>	
+
+
+
+<% json.copy_of_dtf_roadmap.timeline.forEach(function(event, idx){ %>
+
+  <div class="block-group" id="<%= idx %>">
+    <div class="block-name">
+      <div class="sticky-name">
+        <div class="block-yr"><%=event.Year%></div>
+        <div class="block-title"><%=event.Title%></div>
+      </div>
+    </div>
+    
+    <div class="block-content">
+    	<div class="block-img <% if (event.Vertical) { %>vertical<%}%>">
+    	<% if (event.Image){ %>
+      	<img src="<%=event.Image%>"></img>
+      <% } else if (event.Video){ %>
+      	<div class='embed-container'><iframe src='<%= event.Video %>' frameborder='0' allowfullscreen></iframe></div>
+     	<%}%>
+      
+      	<div class="caption"><span class="byline"><%=event.Source%></span></div>
+    	</div>
+      <div class="block-text"><%=event.Text%></div>
+    </div>
+
+  </div>
+
+
+<% }); %>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- build:remove -->
+<%= t.include("partials/_bottom.html") %>
+<!-- /build -->
+
