@@ -40,10 +40,10 @@
 </script>
 
 
-<div class="dtf-header">
+<div class="dtf-container timeline">
 	<p>TIMELINE</p>
 	<h1>Driving the future</h1>
-	<div class="deck">Lorem ipsum dolor sit amet, an adolescens reprehendunt eum, legimus laboramus percipitur mei eu, ut saperet mnesarchum elaboraret quo.</div>
+	<div class="subhead timeline">Lorem ipsum dolor sit amet, an adolescens reprehendunt eum, legimus laboramus percipitur mei eu, ut saperet mnesarchum elaboraret quo.</div>
 </div>
 
 
@@ -63,15 +63,16 @@
     </div>
     
     <div class="block-content">
-    	<div class="block-img <% if (event.Vertical) { %>vertical<%}%>">
+    	
     	<% if (event.Image){ %>
+      <div class="block-img <% if (event.Vertical) { %>vertical<%}%>">
       	<img src="<%=event.Image%>"></img>
+      </div>
       <% } else if (event.Video){ %>
       	<div class='embed-container'><iframe src='<%= event.Video %>' frameborder='0' allowfullscreen></iframe></div>
      	<%}%>
       
-      	<div class="caption"><span class="byline"><%=event.Source%></span></div>
-    	</div>
+      <div class="caption"><span class="byline"><%=event.Source%></span></div>
       <div class="block-text"><%=event.Text%></div>
     </div>
 

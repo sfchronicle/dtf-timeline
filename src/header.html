@@ -1,0 +1,43 @@
+<!-- build:remove -->
+<%= t.include("partials/_top.html") %>
+<!-- /build -->
+<!-- build:css inline -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- /build -->
+
+
+
+
+
+<!-- Code that goes within WCM Freeform -->
+
+
+
+<div>
+  <div class="dtf-container">
+    <div class="flex dtf-header">
+      <h1>Driving the future</h1>
+      <div class="subhead">The idea that cars can safely navigate streets filled with people and other vehicles is becoming ever closer to reality. San Francisco Chronicle business and technology writers examine the issues facing the growing industry.</div>
+    </div>
+    <div class="flex"><img src="http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"></div>
+  </div>
+</div>
+
+
+<div id="dtf-stories">
+    
+  <% json.landing_page.stories.forEach(function(story) { %>
+    <div class="dtf-story">
+      <a href="<%= story.Url %>">
+        <img src="<%= story.Image %>">
+        <h2><%= story.Title %></h2>
+      </a>
+    </div>
+  <% }); %>
+
+</div>
+
+<!-- build:remove -->
+<%= t.include("partials/_bottom.html") %>
+<!-- /build -->
+
