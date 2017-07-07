@@ -20,12 +20,12 @@
   for (var i = 0; i < 19; i++) {
     var a = document.getElementById(i);
     var at = document.getElementById(i);
-    if (i == 19) {
-      var ed_top = a.getBoundingClientRect().top + window_top - 100;
-      var ede_top = a.getBoundingClientRect().bottom + window_top - 135;
+    if (i == 18) {
+      var ed_top = a.getBoundingClientRect().top + window_top - 460;
+      var ede_top = a.getBoundingClientRect().bottom + window_top - 500;
     } else {
-      var ed_top = a.getBoundingClientRect().top + window_top - 100;
-      var ede_top = a.getBoundingClientRect().bottom + window_top - 100;
+      var ed_top = a.getBoundingClientRect().top + window_top - 460;
+      var ede_top = a.getBoundingClientRect().bottom + window_top - 460;
     }
 
     if (window_top > ed_top && window_top < ede_top) {
@@ -47,7 +47,7 @@
 </div>
 
 
-<div class="timeline" id="timeline">
+<div class="timeline" id="timeline" style="margin-bottom: 1000px;">
   <div id="stick-here"></div>	
 
 
@@ -58,8 +58,10 @@
     <div class="block-name">
       <div class="sticky-name">
         <div class="block-yr"><%=event.Year%></div>
-        <div class="block-title"><%=event.Title%></div>
+        <div class="block-title"></div>
+        <div class="sign"><img src="./assets/sign.png"></div>
       </div>
+
     </div>
     
     <div class="block-content">
@@ -67,13 +69,16 @@
     	<% if (event.Image){ %>
       <div class="block-img <% if (event.Vertical) { %>vertical<%}%>">
       	<img src="<%=event.Image%>"></img>
+        <div class="caption"><span class="byline"><%=event.Source%></span></div>
       </div>
       <% } else if (event.Video){ %>
       	<div class='embed-container'><iframe src='<%= event.Video %>' frameborder='0' allowfullscreen></iframe></div>
+        <div class="caption"><span class="byline"><%=event.Source%></span></div>
+
      	<%}%>
-      
-      <div class="caption"><span class="byline"><%=event.Source%></span></div>
+      <h2><%=event.Title%></h2>
       <div class="block-text"><%=event.Text%></div>
+      <hr>
     </div>
 
   </div>
