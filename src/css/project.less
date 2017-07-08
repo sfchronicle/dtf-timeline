@@ -62,14 +62,9 @@
   visibility: hidden;
   font-family: "AntennaRegular";
   font-size: 30px;
-  padding-bottom: 10px; 
 }
 
-@media (max-width: 480px) {
-  .timeline .block-name {
-    -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%; } }
+
 
 .timeline .block-name .block-title {
   font-size: 22px;
@@ -83,7 +78,7 @@
     font-size: 21px; } }
 
 .timeline .block-name a {
-  padding-left: 10px;
+
   font-size: 20px; }
 
 .timeline .block-name .sticky-name {
@@ -102,12 +97,10 @@
   .timeline .block-name .sticky-name .block-tweet {
     display: inline-block;
     font-size: 18px;
-    padding-left: 10px;
     float: left; }
   .timeline .block-name .sticky-name .block-yr a,
   .timeline .block-name .sticky-name .block-title a,
   .timeline .block-name .sticky-name .block-tweet a {
-    padding-top: 1px;
     font-size: 18px; } }
 
 @media (max-width: 768px) {
@@ -116,19 +109,27 @@
 
 @media (max-width: 480px) {
   .timeline .block-name .sticky-name .block-title {
-    padding-top: 1px;
+
     font-size: 16px; } }
 
 @media (max-width: 980px) {
   .timeline .block-name .sticky-name {
-    padding: 5px 0;
-    width: 100%;
-    height:40px;
-    top: 0;
-    left: 0;
-    background: #d9d9d9;
-    box-shadow: 0 0 6px 0 #696969; } }
+    display:none; } }
 
+.block-yr-mobile{
+  display:none;
+
+  @media @width980{
+    display:inline-block;
+    font-size:30px;
+    line-height:1.2;
+    padding:5px 10px;
+    margin-bottom:10px;
+    background-color:#17623b;
+    color:#ffd800;
+    font-family:AntennaBlack;
+  }
+}
 .timeline .block-content {
   max-width:650px;
   margin: 0 0 0 auto;
@@ -162,7 +163,8 @@
 @media (max-width: 480px) {
   .timeline .block-text,
   .timeline .quote-text {
-    font-size: 15px; } }
+    font-size: 15px;
+    line-height:1.56; } }
 
 
 .timeline .lineup {
@@ -272,6 +274,10 @@
     font-size:30px;
     margin-bottom:10px;
     line-height:1.2;
+
+    @media @mobile{
+      font-size:25px;
+    }
   }
 }
 .vertical{

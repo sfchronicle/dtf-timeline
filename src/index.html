@@ -47,7 +47,7 @@
 </div>
 
 
-<div class="timeline" id="timeline" style="margin-bottom: 1000px;">
+<div class="timeline" id="timeline">
   <div id="stick-here"></div>	
 
 
@@ -65,7 +65,7 @@
     </div>
     
     <div class="block-content">
-    	
+    	<div class="block-yr-mobile"><%=event.Year%></div>
     	<% if (event.Image){ %>
       <div class="block-img <% if (event.Vertical) { %>vertical<%}%>">
       	<img src="<%=event.Image%>"></img>
