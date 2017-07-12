@@ -6,13 +6,19 @@
   -webkit-tap-highlight-color: transparent; }
 
 .caption {
-  text-align: left;
+  text-align: right;
   font-family: 'Helvetica Neue', helvetica, arial,sans-serif;
   font-size: 12px;
   padding-bottom: 20px;
   padding-left: 0;
   margin-top: 0;
-  max-width: 100%; }
+  max-width: 100%; 
+
+  span{
+    margin:0;
+  }
+
+}
   .caption .byline {
     color: #6D6D6D;
     font-family: 'Helvetica Neue', helvetica, arial,sans-serif;
@@ -20,7 +26,7 @@
 
 .timeline {
   max-width:1200px;
-  margin:0 auto 20em;
+  margin:0 auto 10em;
   font-family: Georgia, serif; 
 
 }
@@ -42,12 +48,12 @@
 
 .timeline .block-yr {
   font-family: "AntennaBlack";
-  font-size: 74px;
+  font-size: 55px;
   line-height: 1.2;
-  color: #ffd800;
+  color: #fff;
   position: absolute;
-  top: 65px;
-  left: 56px;
+  top: 55px;
+  left:45px;
 
   @media @width980{
     position:static;
@@ -128,7 +134,7 @@
     padding:5px 10px;
     margin-bottom:10px;
     background-color:#17623b;
-    color:#ffd800;
+    color:#fff;
     font-family:AntennaBlack;
   }
 }
@@ -201,7 +207,7 @@
 
 .sign{
   z-index:1;
-  width:330px;
+  width:250px;
 
   img{width:100%;}
 
@@ -213,12 +219,13 @@
 .dtf-container{
 	
 	text-align:center;
-  margin: 0 auto 3em;
+  margin: 0 auto;
 	
 	h1{
-		font-size:60px;
-		line-height:1;
-    margin-top:10px;
+    font-size: 50px;
+    line-height: 1.1;
+    max-width: 750px;
+    margin: 10px auto;
 
     @media @mobile{
       font-size:30px;

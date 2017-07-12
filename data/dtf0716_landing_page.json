@@ -1,0 +1,21 @@
+{
+  "Headline": "Driving the future",
+  "Deck": "The idea that robot cars can safely navigate streets filled with people and other vehicles is becoming ever closer to reality. San Francisco Chronicle business and technology writers examine the issues facing the growing industry.",
+  "stories": [
+    {
+      "Title": "dtf0716_main",
+      "Url": "http://www.sfchronicle.com/business/article/How-the-Bay-Area-took-over-the-self-driving-car-11278238.php",
+      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+    },
+    {
+      "Title": "dtf_history",
+      "Url": "http://www.sfchronicle.com/business/article/Driverless-milestone-No-Hands-Across-America-11278241.php",
+      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+    },
+    {
+      "Title": "TIMELINE",
+      "Url": "#",
+      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+    }
+  ]
+}
