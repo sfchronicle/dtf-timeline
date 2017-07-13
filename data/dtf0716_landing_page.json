@@ -1,21 +1,21 @@
 {
-  "Headline": "Driving the future",
-  "Deck": "The idea that robot cars can safely navigate streets filled with people and other vehicles is becoming ever closer to reality. San Francisco Chronicle business and technology writers examine the issues facing the growing industry.",
+  "Headline": "On the cusp of a car revolution",
+  "Deck": "For decades, technological breakthroughs born or nurtured in Silicon Valley — the semiconductor, the personal computer, the Internet and smartphones — have led to sweeping changes in the global economy, as well as in society and the culture. Today, the advent of self-driving vehicles portends an equally vast disruption in how we live and work, and the Bay Area is the engine driving that change. The stories below and coming installments of Driving the Future will explain how autonomous vehicles have gone from experiment to reality, and what that means for all of us.",
   "stories": [
     {
-      "Title": "dtf0716_main",
+      "Title": "How the Bay Area took over the self-driving car business",
       "Url": "http://www.sfchronicle.com/business/article/How-the-Bay-Area-took-over-the-self-driving-car-11278238.php",
-      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+      "Image": "http://ww3.hdnux.com/photos/62/35/64/12657235/3/600x0.jpg"
     },
     {
-      "Title": "dtf_history",
+      "Title": "Driverless milestone: No Hands Across America",
       "Url": "http://www.sfchronicle.com/business/article/Driverless-milestone-No-Hands-Across-America-11278241.php",
-      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+      "Image": "http://ww3.hdnux.com/photos/07/76/55/13234451/5/2000x0.jpg"
     },
     {
-      "Title": "TIMELINE",
-      "Url": "#",
-      "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"
+      "Title": "Timeline: The road from fantasy to fruition",
+      "Url": "",
+      "Image": "http://ww3.hdnux.com/photos/62/32/57/13216750/3/1000x0.jpg"
     }
   ]
 }

@@ -58,15 +58,13 @@
       "Title": "Stanford wins DARPA Grand Challenge",
       "Year": "2005",
       "Text": "The first time the Pentagon’s deep research arm, the Defense Advanced Research Projects Agency, staged a self-driving car race, in 2004, none of the entrants finished. But on Oct. 8, 2005, a Volkswagen Taureg modified by Stanford University researchers crossed a finish line in Primm, Nevada after navigating 132 miles of desert on its own, with no one inside. Four other vehicles finished as well -- proof that the technology was finally coming into its own. Engineers competing in the DARPA challenges went on to form much of the Bay Area’s self-driving car industry, taking key positions at Google, Uber and Cruise.",
-      "Image": "http://ww3.hdnux.com/photos/62/32/57/13216927/3/1000x0.jpg",
-      "Source": "AP Photo"
+      "Image": "./assets/darpa.jpg",
+      "Source": "Kurt Rogers, The Chronicle"
     },
     {
       "Title": "Google forms self-driving car unit",
       "Year": "2008",
-      "Text": "Sebastian Thrun, the head of Stanford’s winning DARPA team, took a research fellow position at Google in 2007, and in 2008 received permission from the Internet giant’s founders to pursue self-driving cars. He started by hiring other DARPA Challenge alumni, including Chris Urmson, Anthony Levandowski and Mike Montemerlo. Google heads Sergey Brin and Larry Page issued the team a challenge: drive 100,000 autonomous miles on public roads, and navigate ten 100-mile courses along well-known California routes, including San Francisco’s Lombard Street.",
-      "Image": "./assets/2008-thrun.jpg",
-      "Source": "Connor Radnovich, The Chronicle"
+      "Text": "Sebastian Thrun, the head of Stanford’s winning DARPA team, took a research fellow position at Google in 2007, and in 2008 received permission from the Internet giant’s founders to pursue self-driving cars. He started by hiring other DARPA Challenge alumni, including Chris Urmson, Anthony Levandowski and Mike Montemerlo. Google heads Sergey Brin and Larry Page issued the team a challenge: drive 100,000 autonomous miles on public roads, and navigate ten 100-mile courses along well-known California routes, including San Francisco’s Lombard Street."
     },
     {
       "Title": "Google unveils Bubble Car",
@@ -107,8 +105,8 @@
       "Title": "Uber’s self-driving rides in Pittsburg",
       "Year": "2016",
       "Text": "Convinced that robot taxis could put it out of business if someone else perfected them first, Uber jumped into the self-driving race in 2015, hiring some of Carnegie Mellon University’s top researchers. For a time, that made Pittsburgh the center of the ride-hailing company’s autonomous vehicle research. Uber started offering the city’s residents rides in self-driving Volvos in September, 2016, although a human remained behind the wheel at all times. Uber launched a similar program in San Francisco in December, but stopped it after California officials insisted the company get permits for its autonomous vehicles.",
-      "Image": "http://ww4.hdnux.com/photos/51/40/64/10882347/3/1024x1024.jpg",
-      "Source": "AP Photo"
+      "Image": "./assets/uber.jpg",
+      "Source": "Santiago Mejia, The Chronicle"
     },
     {
       "Title": "Chrysler builds robot minivans for Google, er, Waymo",

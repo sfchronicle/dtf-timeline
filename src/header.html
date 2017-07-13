@@ -13,20 +13,24 @@
 
 
 
-<div>
+<div class="dtf-wrapper">
   <div class="dtf-container">
-    <div class="flex dtf-header">
-      <h1>Driving the future</h1>
-      <div class="subhead">The idea that robot cars can safely navigate streets filled with people and other vehicles is becoming ever closer to reality. San Francisco Chronicle business and technology writers examine the issues facing the growing industry.</div>
+    <div class="flex-left dtf-header ">
+      <p>DRIVING THE FUTURE</p>
+      <h1>On the cusp of a car revolution</h1>
+      <div class="subhead">For decades, technological breakthroughs born or nurtured in Silicon Valley — the semiconductor, the personal computer, the Internet and smartphones — have led to sweeping changes in the global economy, as well as in society and the culture. Today, the advent of self-driving vehicles portends an equally vast disruption in how we live and work, and the Bay Area is the engine driving that change. The  stories below and coming installments of Driving the Future will explain how autonomous vehicles have gone from experiment to reality, and what that means for all of us.<br>
+      <div class="dtf-btn">Read the stories</div>
+      </div>
     </div>
-    <div class="flex"><img src="http://ww3.hdnux.com/photos/07/76/55/13079090/5/2000x0.jpg"></div>
+    <div class="flex-right"><img src="./assets/car.gif"></div>
   </div>
+
 </div>
 
 
 <div id="dtf-stories">
     
-  <% json.landing_page.stories.forEach(function(story) { %>
+  <% json.dtf0716_landing_page.stories.forEach(function(story) { %>
     <div class="dtf-story">
       <a href="<%= story.Url %>">
         <img src="<%= story.Image %>">
@@ -36,6 +40,14 @@
   <% }); %>
 
 </div>
+
+<script>
+  $(".dtf-btn").click(function() {
+    $('html,body').animate({
+       scrollTop: $("#dtf-stories").offset().top
+    });
+  });
+</script>
 
 <!-- build:remove -->
 <%= t.include("partials/_bottom.html") %>
