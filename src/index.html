@@ -10,8 +10,53 @@
 
 
 <!-- Code that goes within WCM Freeform -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <script type="text/javascript">
+// Twitter Intent
+(function() {
+  if (window.__twitterIntentHandler) return;
+  var intentRegex = /twitter\.com\/intent\/(\w+)/,
+      windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes',
+      width = 550,
+      height = 420,
+      winHeight = screen.height,
+      winWidth = screen.width;
+
+  function handleIntent(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+        m, left, top;
+
+    while (target && target.nodeName.toLowerCase() !== 'a') {
+      target = target.parentNode;
+    }
+
+    if (target && target.nodeName.toLowerCase() === 'a' && target.href) {
+      m = target.href.match(intentRegex);
+      if (m) {
+        left = Math.round((winWidth / 2) - (width / 2));
+        top = 0;
+
+        if (winHeight > height) {
+          top = Math.round((winHeight / 2) - (height / 2));
+        }
+
+        window.open(target.href, 'intent', windowOptions + ',width=' + width +
+                                           ',height=' + height + ',left=' + left + ',top=' + top);
+        e.returnValue = false;
+        e.preventDefault && e.preventDefault();
+      }
+    }
+  }
+
+  if (document.addEventListener) {
+    document.addEventListener('click', handleIntent, false);
+  } else if (document.attachEvent) {
+    document.attachEvent('onclick', handleIntent);
+  }
+  window.__twitterIntentHandler = true;
+}());
   $(window).scroll(function() {
     
   var window_top = document.body.scrollTop;
@@ -43,6 +88,7 @@
 <div class="dtf-container timeline">
 	<p>DRIVING THE FUTURE</p>
 	<h1>Self-driving cars: The road from fantasy to fruition</h1>
+  <%= t.include("partials/_social.html") %>
   <div class="date">July 14, 2017</div>
 	<div class="subhead timeline">Cars that can drive themselves have been a science-fiction staple since the 1930s. Many engineers over the years have labored to make that dream real. But only in the last decade has autonomous vehicle research taken on momentum, with much of the action happening in the Bay Area.</div>
 </div>
@@ -59,7 +105,7 @@
     <div class="block-name">
       <div class="sticky-name">
         <div class="block-yr"><%=event.Year%></div>
-        <div class="sign"><img src="./assets/sign.png"></div>
+        <div class="sign"><img src="http://projects.sfchronicle.com/2017/driving-the-future/landing/images/sign.png"></div>
       </div>
 
     </div>
@@ -79,15 +125,15 @@
       <div class="block-text"><%=event.Text%></div>
       <hr>
     </div>
-
   </div>
-
-
 <% }); %>
 
-
-
-</div>
+<div class="block-content">
+  <div id="credits">
+    <div class="credits-title">Credits</div>
+      <div>Research by<a href="mailto:dbaker@sfchronicle.com"> David R. Baker<br><a href="https://twitter.com/DavidBakerSF" target="_blank">@DavidBakerSF</a><br><br></div>
+      Developed by <a href="mailto:lvilla@sfchronicle.com">Lucio Villa</a><br><a href="https://twitter.com/luciovilla" target="_blank">@luciovilla</a><br>
+    </div>
 
 
 

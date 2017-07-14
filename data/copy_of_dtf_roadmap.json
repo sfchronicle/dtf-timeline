@@ -3,42 +3,42 @@
     {
       "Title": "Futurama",
       "Year": "1939",
-      "Text": "The Futurama exhibit at the 1939 World’s Fair in New York permanently etched self-driving cars into visions of the future. General Motors teamed with famed designer Norman Bel Geddes to create an immense diorama of a gleaming American city, circa 1960, dominated by glass skyscrapers, wide freeways and cars running under “automatic radio control.” Viewed by an estimated 30,000 people each day, Futurama popularized the idea of a nation knit together by high-speed roads -- years before construction of the interstate highway system.",
-      "Image": "./assets/1939.png",
+      "Text": "The Futurama exhibit at the 1939 World’s Fair in New York permanently etches self-driving cars into visions of the future. General Motors teams with famed designer Norman Bel Geddes to create an immense diorama of a gleaming American city, circa 1960, dominated by glass skyscrapers, wide freeways and cars running under “automatic radio control.” Viewed by an estimated 30,000 people each day, Futurama popularizes the idea of a nation knit together by high-speed roads — years before construction of the interstate highway system.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/1939.png",
       "Source": "Getty Images"
     },
     {
       "Title": "RCA’s “Highway of the future”",
       "Year": "1957",
-      "Text": "On Oct. 10, 1957 the Radio Corporation of America used a 400-foot stretch of freshly laid pavement on the outskirts of Lincoln, Nebraska to demonstrate how highways could control cars. Wires embedded in a new public highway emitted signals that a specially rigged test car used to stay within its lane. RCA envisioned “a fully automatic highway traffic control system” in which drivers would steer their cars onto a “controlled highway,” push a button on the dashboard and let the road take over. RCA pursued the idea for several years, working with GM.",
-      "Image": "./assets/1957.png",
+      "Text": "On Oct. 10, the Radio Corporation of America uses a 400-foot stretch of freshly laid pavement on the outskirts of Lincoln, Neb., to demonstrate how highways could control cars. Wires embedded in the new public highway emit signals that a specially rigged test car uses to stay within its lane. RCA envisions “a fully automatic highway traffic control system” in which drivers would steer their cars onto a “controlled highway,” push a button on the dashboard and let the road take over. RCA pursues the idea for several years, working with GM.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/1957.png",
       "Source": "Getty Images"
     },
     {
       "Title": "GM’S Firebird II",
       "Year": "1958",
-      "Text": "Its fins weren’t terribly practical, but the Firebird III concept car from General Motors showcased several technical innovations, including a version of RCA’s smart highway. Two pickup coils on the underside of the Firebird would straddle a current-carrying wire within the roadway. A dashboard button labeled “autoguide” would engage the system, while another labeled “manual” would turn it off. Other futuristic features of the Firebird: cruise control for speed and a wireless key for entry.",
-      "Image": "./assets/1958.jpg",
+      "Text": "Its fins aren’t terribly practical, but the Firebird III concept car from GM showcases several technical innovations, including a version of RCA’s smart highway. How it works: Two pickup coils on the underside of the Firebird straddle a current-carrying wire within the roadway. A dashboard button labeled “Autoguide” engages the system, while another labeled “Manual” turns it off. Other futuristic features of the Firebird: cruise control for speed and a wireless key for entry.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/1958.jpg",
       "Source": "General Motors"
     },
     {
       "Title": "Ohio State University",
       "Year": "1962",
-      "Text": "Electrical engineering professor Robert Fenton created a car that could automatically control speed, steering and braking, using electronics that filled most of the car’s interior (other than the driver’s seat). The car, however, still used an embedded roadway wire to maintain course, much like the Firebird and RCA’s vehicles.",
-      "Image": "./assets/1962.jpg",
+      "Text": "Ohio State University electrical engineering Professor Robert Fenton creates a car that can automatically control speed, steering and braking, using electronics that fill most of the car’s interior (other than the driver’s seat). The car, however, still uses an embedded roadway wire to maintain course, much like the Firebird and RCA’s vehicles.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/1962.jpg",
       "Source": "Ohio State University"
     },
     {
       "Title": "Carnegie Mellon NavLab 1",
       "Year": "1986",
-      "Text": "Starting in 1986, researchers at Carnegie Mellon University in Pittsburgh began outfitting vehicles with the sensors and computers needed to drive themselves without guidewires or external controls. The first NavLab was a converted Chevy van, the next a HumVee -- fitting, since the program was funded by the military. CMU’s NavLabs pioneered many of the tools and concepts now common in autonomous driving research, including using lidar -- the laser version of radar -- to “see” the environment around the vehicle. They also turned Carnegie Mellon into a hotbed for autonomous driving research, a position the school maintains.",
+      "Text": "Researchers at Carnegie Mellon University in Pittsburgh begin outfitting vehicles with the sensors and computers needed to drive themselves without guide wires or external controls. The first Navlab is a converted Chevy van, the next a Humvee — fitting, since the program is funded by the military. Carnegie Mellon’s Navlabs pioneer many of the tools and concepts now common in autonomous driving research, including using lidar — the laser version of radar — to “see” the environment around the vehicle. They also turn the university into a hotbed for autonomous driving research, a position the school maintains.",
       "Video": "https://www.youtube.com/embed/ntIczNQKfjQ",
       "Source": ""
     },
     {
       "Title": "Robot Mercedes on the Autobahn",
       "Year": "1987",
-      "Text": "While NavLab 1 lumbered around the CMU campus, German engineer Ernst Dickmanns was outfitting a Mercedes van with its own self-driving gear, which could steer, control the gas pedal and brakes, and search for obstacles in the road ahead. In 1987, the van drove itself on a new, 12-mile stretch of the Autobahn that had not yet opened to the public, at speeds just under 60 miles per hour.",
+      "Text": "In Germany, a Mercedes van drives itself on a 12-mile stretch of the Autobahn not yet open to the public, at speeds just under 60 mph. Engineer Ernst Dickmanns had outfitted the van with gear that steers, controls the gas pedal and brakes, and searches for obstacles in the road ahead.",
       "Image": "",
       "Video": "https://www.youtube.com/embed/I39sxwYKlEE",
       "Source": ""
@@ -46,86 +46,86 @@
     {
       "Title": "No hands across America",
       "Year": "1995",
-      "Text": "In July, 1995, Carnegie Mellon researchers Dean Pomerleau and Todd Jochem rode a semi-autonomous Pontiac minivan from Pittsburgh to California, posting daily updates online. The minivan, donated by auto-parts supplier Delco, contained a camera, a gyroscope, a GPS system and a computer programmed to steer, while Pomerleau controlled the gas and brakes. Using the camera, the vehicle could follow the stripes down the center of a highway as well as the margin between the road and the shoulder. The programming also had the ability to learn over time."
+      "Text": "In July, Carnegie Mellon researchers Dean Pomerleau and Todd Jochem ride a semiautonomous Pontiac minivan from Pittsburgh to California, posting daily updates online. The minivan, donated by auto-parts supplier Delco, contains a camera, a gyroscope, GPS and a computer programmed to steer, while Pomerleau controls the gas and brakes. Using the camera, the vehicle could follow the stripes down the center of a highway as well as the margin between the road and the shoulder. The program also has the ability to learn over time."
     },
     {
       "Title": "San Diego’s automated highway",
       "Year": "1997",
-      "Text": "In August, 1997, a stretch of I-15 north of downtown San Diego turned into a temporary test bed for demonstrating “automated highway systems,” a mix of technologies designed to improve traffic flow and safety. Some were updates on the old wire-in-the-road idea from decades earlier -- magnets and radar-reflecting stripes were embedded in 7.5 miles of the freeway’s carpool lane to guide some of the vehicles through their maneuvers. But the demonstration -- which included university research teams, car companies, and government agencies -- also featured many ideas that have become focal points of autonomous vehicle research. Those included vehicle-to-vehicle communications and platooning: cars following close behind each other at high speed.",
+      "Text": "In August, a stretch of Interstate 15 north of downtown San Diego turns into a temporary test bed for “automated highway systems,” a mix of technologies designed to improve traffic flow and safety. Some were updates on the old wire-in-the-road idea from decades earlier — magnets and radar-reflecting stripes are embedded in 7½ miles of the freeway’s carpool lane to guide some of the vehicles through their maneuvers. But the demonstration — which includes university research teams, car companies and government agencies — also features many ideas that will become focal points of autonomous vehicle research. Those include vehicle-to-vehicle communications and platooning: cars following close behind each other at high speed.",
       "Video": "https://www.youtube.com/embed/RlZEeIC_2lI"
     },
     {
       "Title": "Stanford wins DARPA Grand Challenge",
       "Year": "2005",
-      "Text": "The first time the Pentagon’s deep research arm, the Defense Advanced Research Projects Agency, staged a self-driving car race, in 2004, none of the entrants finished. But on Oct. 8, 2005, a Volkswagen Taureg modified by Stanford University researchers crossed a finish line in Primm, Nevada after navigating 132 miles of desert on its own, with no one inside. Four other vehicles finished as well -- proof that the technology was finally coming into its own. Engineers competing in the DARPA challenges went on to form much of the Bay Area’s self-driving car industry, taking key positions at Google, Uber and Cruise.",
-      "Image": "./assets/darpa.jpg",
+      "Text": "The first time the Pentagon’s deep research arm, the Defense Advanced Research Projects Agency, staged a self-driving car race, in 2004, none of the entrants finished. But on Oct. 8, 2005, a Volkswagen Touareg modified by Stanford University researchers crosses the finish line in Primm, Nev., after navigating 132 miles of desert with no one inside. Four other vehicles finish as well — proof that the technology is finally coming into its own. Engineers competing in the DARPA races go on to build much of the Bay Area’s self-driving car industry, taking key positions at Google, Uber and the startup Cruise Automation.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/darpa.jpg",
       "Source": "Kurt Rogers, The Chronicle"
     },
     {
       "Title": "Google forms self-driving car unit",
       "Year": "2008",
-      "Text": "Sebastian Thrun, the head of Stanford’s winning DARPA team, took a research fellow position at Google in 2007, and in 2008 received permission from the Internet giant’s founders to pursue self-driving cars. He started by hiring other DARPA Challenge alumni, including Chris Urmson, Anthony Levandowski and Mike Montemerlo. Google heads Sergey Brin and Larry Page issued the team a challenge: drive 100,000 autonomous miles on public roads, and navigate ten 100-mile courses along well-known California routes, including San Francisco’s Lombard Street."
+      "Text": "Google researcher Sebastian Thrun, previously the head of Stanford’s winning DARPA team, receives permission from the Internet giant’s founders to pursue self-driving cars. He starts by hiring other DARPA Challenge alumni, including Chris Urmson, Anthony Levandowski and Mike Montemerlo. Google co-founder Larry Page issues the team a challenge: drive 100,000 autonomous miles on public roads and navigate 10 100-mile courses along well-known California routes, including San Francisco’s Lombard Street."
     },
     {
       "Title": "Google unveils Bubble Car",
       "Year": "2014",
-      "Text": "Google began talking publicly about its autonomous car effort in 2010, and in 2014 revealed its distinctive, bubble-shaped prototype car built from the ground up. (The company’s prior self-driving guinea pigs had been converted Priuses and Lexus SUVs.) Nicknamed Firefly by its creators, the bubble car caught public attention in a way that none of its predecessors, including Stanley, ever had. Automakers, who had been researching self-driving technology off and on for decades, took notice.",
+      "Text": "Google reveals its distinctive, bubble-shape prototype car built from the ground up. (The company’s prior self-driving guinea pigs had been converted Priuses and Lexus SUVs.) Nicknamed Firefly by its creators, the bubble car catches public attention in a way that none of its predecessors had. Automakers, which had been researching self-driving technology off and on for decades, take notice.",
       "Image": "http://ww3.hdnux.com/photos/07/76/55/13079090/5/900x0.jpg",
-      "Source": "AP Photo"
+      "Source": "Tony Avelar, AP Photo 2015"
     },
     {
       "Title": "The Google diaspora",
       "Year": "2014",
-      "Text": "Thrun left Google in 2014 to focus on Udacity, a new online learning platform that offered, among other things, a course in programing autonomous cars. Over the next two years, other key engineers would quit Google’s program to found their own self-driving startups. Levandowski formed Otto, which was quickly purchased by ride-hailing company Uber. Urmson joined with Tesla Motors veteran Sterling Anderson to found Aurora.",
+      "Text": "Thrun leaves Google to focus on Udacity, an online learning platform that offers, among other things, a course in programming autonomous cars. Over the next two years, other key engineers quit Google’s program to found their own self-driving startups. Levandowski forms Otto, which is quickly purchased by ride-hailing company Uber. Urmson joins with Tesla veteran Sterling Anderson to found Aurora Innovation.",
       "Image": "http://ww3.hdnux.com/photos/07/76/55/11880808/5/900x0.jpg",
       "Source": "Michael Macor, The Chronicle"
     },
     {
       "Title": "Tesla Autopilot",
       "Year": "2015",
-      "Text": "Electric automaker Tesla in October, 2015 rolled out its Autopilot feature, which can steer a car, adjust speed and change lanes by itself on freeways. Although not full self-driving technology, it was seen as a big step on the path to autonomous cars.",
+      "Text": "Tesla in October rolls out its Autopilot feature, which can steer a car, adjust speed and change lanes by itself on freeways. Although not full self-driving technology, it is seen as a big step on the path to autonomous cars.",
       "Image": "http://ww3.hdnux.com/photos/07/76/55/11504281/5/900x0.jpg",
       "Source": "James Tensuan, Special to The Chronicle"
     },
     {
       "Title": "GM buys Cruise",
       "Year": "2016",
-      "Text": "General Motors bought San Francisco startup Cruise Automotive in March, 2016 for $1 billion, representing Detroit’s biggest bet to date on self-driving technology. Traditional automakers, determined not to be left in the dust by Silicon Valley, started forming partnerships with tech companies to develop and deploy autonomous vehicles.",
+      "Text": "GM buys San Francisco startup Cruise Automation in March for $581 million, a big bet by Detroit on self-driving technology. Traditional automakers, determined not to be left in the dust by Silicon Valley, start forming partnerships with tech companies to develop and test autonomous vehicles.",
       "Image": "http://ww3.hdnux.com/photos/62/32/57/12657236/5/1000x0.jpg",
       "Source": "Gabrielle Lurie, The Chronicle"
     },
     {
       "Title": "Tesla autopilot death",
       "Year": "2016",
-      "Text": "On May 7, a Tesla Model S in Autopilot mode slammed into a truck on a rural highway in Florida, killing the car’s owner, Joshua Brown. Although the truck was crossing the highway in front of the car, neither the vehicle nor Brown hit the brakes, and a witness claimed he could hear a Harry Potter movie playing in the car’s wreckage. Tesla reported that Autopilot likely did not distinguish between the truck’s side -- painted white -- and the bright sky. The first death in a car operating under at least partial autonomy sparked debate about the technology’s safety and the public’s willingness to trust self-driving vehicles.",
+      "Text": "On May 7, a Tesla Model S in Autopilot mode slams into a truck on a rural highway in Florida, killing the car’s owner, Joshua Brown. Although the truck was crossing the highway in front of the car, neither the vehicle nor Brown hits the brakes. Tesla reports that Autopilot probably did not distinguish between the truck’s side — painted white — and the bright sky. The first widely reported death in a car operating under at least partial autonomy sparks debate about the technology’s safety and the public’s willingness to trust self-driving vehicles.",
       "Image": "http://ww3.hdnux.com/photos/07/76/55/12219618/5/900x0.jpg",
       "Source": "AP Photo"
     },
     {
       "Title": "Uber’s self-driving rides in Pittsburg",
       "Year": "2016",
-      "Text": "Convinced that robot taxis could put it out of business if someone else perfected them first, Uber jumped into the self-driving race in 2015, hiring some of Carnegie Mellon University’s top researchers. For a time, that made Pittsburgh the center of the ride-hailing company’s autonomous vehicle research. Uber started offering the city’s residents rides in self-driving Volvos in September, 2016, although a human remained behind the wheel at all times. Uber launched a similar program in San Francisco in December, but stopped it after California officials insisted the company get permits for its autonomous vehicles.",
-      "Image": "./assets/uber.jpg",
+      "Text": "Uber starts offering Pittsburgh residents rides in self-driving Volvos in September, a year after jumping into autonomous vehicles by hiring top robotics experts from Carnegie Mellon. The company launches a similar program in San Francisco in December, but stops it after California officials insist that the company get permits for its autonomous vehicles.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/uber.jpg",
       "Source": "Santiago Mejia, The Chronicle"
     },
     {
       "Title": "Chrysler builds robot minivans for Google, er, Waymo",
       "Year": "2016",
-      "Text": "Facing criticism that it wasn’t moving fast enough in a field it once dominated, Google hired an auto-industry veteran to run its self-driving program in 2015 and formed an alliance Fiat Chrysler Automobiles the following year. Google also turned the autonomous vehicle program into its own, stand-alone business unit, dubbed Waymo, for the “way forward in mobility.”  The FCA partnership bore fruit in December, when Waymo received 100 specially built Chrysler Pacifica minivans to use Waymo’s technology. Five hundred more followed in 2017, and the robotic Pacificas now offer free rides in Phoenix.",
-      "Image": "./assets/2016.jpg",
+      "Text": "Facing criticism that it isn’t moving fast enough in a field it once dominated, Google forms an alliance with Fiat Chrysler Automobiles. Google also turns its autonomous vehicle program into a stand-alone business unit, dubbed Waymo for the “way forward in mobility.” The Fiat Chrysler partnership bears fruit when Waymo receives 100 specially built Chrysler Pacifica minivans using Waymo’s technology.",
+      "Image": "http://projects.sfchronicle.com/2017/driving-the-future/landing/images/2016.jpg",
       "Source": "Gabrielle Lurie, The Chronicle"
     },
     {
       "Title": "The race gets nasty, in court",
       "Year": "2017",
-      "Text": "In January, 2017 Tesla sued the former head of its Autopilot program, Sterling Anderson, along with Chris Urmson and their startup, Aurora Innovation. Tesla accused Anderson of swiping thousands of internal company documents and trying to entice some of Tesla’s top engineers to join his new firm. Anderson, Urmson and Aurora denied the accusations, and the parties quickly settled the suit, in April. The bigger legal fight, however, pitted Waymo against Uber. In February, Waymo sued Uber and Otto, alleging that Levandowski stole the company’s proprietary lidar design. Uber maintained it had developed a lidar design on its own, but Levandowski refused to testify, citing his 5th Amendment right against self-incrimination. Pressured by a judge, Uber fired Levandowski in May, a major blow to the company’s self-driving program.",
+      "Text": "In January, Tesla sues the former head of its Autopilot program, Sterling Anderson, along with Chris Urmson and their startup, Aurora Innovation. Tesla accuses Anderson of swiping internal company data and trying to entice some of Tesla’s top engineers to join his new firm. Anderson, Urmson and Aurora deny the accusations, and the parties quickly settle the suit. A bigger legal fight pits Waymo against Uber. In February, Waymo sues Uber and Otto, alleging that Levandowski stole the company’s proprietary lidar design. Uber maintains it had developed a lidar design on its own, but Levandowski refuses to testify, citing his Fifth Amendment right against self-incrimination. Uber fires Levandowski in May, a major blow to the company’s self-driving program.",
       "Image": "http://ww4.hdnux.com/photos/51/40/64/12997715/3/1024x1024.jpg",
       "Source": "Santiago Mejia, The Chronicle"
     },
     {
       "Title": "True robot taxis arrive",
       "Year": "2021?",
-      "Text": "As companies such as Waymo, Uber and Delphi test taxis with limited autonomy, many auto-industry executives now say the first deployment of truly self-driving cars will start with ride services -- fleets of robotic taxis circling city streets. Ford Motor Co. CEO Mark Fields in 2016 even committed to building fully autonomous taxis by 2021. (He was ousted by Ford’s board less than a year later, in part because he wasn’t moving fast enough on new technology.) The robotic “Johnny Cab” that gave Arnold Schwarzenegger a lift in the 1990 film “Total Recall” may be less than five years away.",
+      "Text": "As companies such as Waymo, Uber and Delphi test taxis with limited autonomy, many auto-industry executives now say the first use of truly self-driving cars will start with ride services — fleets of robotic taxis circling city streets. In 2016, Ford Motor Co. CEO Mark Fields even committed to building fully autonomous taxis by 2021. (He was ousted by Ford’s board less than a year later, in part because he wasn’t moving fast enough on new technology.) Daimler and Bosch have a similar autonomous taxi plan, with a similar timetable. The robotic “Johnny Cab” that gave Arnold Schwarzenegger a lift in the 1990 film “Total Recall” may be less than five years away.",
       "Image": "http://ww3.hdnux.com/photos/62/32/57/13216750/3/1000x0.jpg",
       "Source": "Handout"
     }

@@ -22,29 +22,42 @@
       <div class="dtf-btn">Read the stories</div>
       </div>
     </div>
-    <div class="flex-right"><img src="./assets/car.gif"></div>
+    <div class="flex-right"><img src="http://projects.sfchronicle.com/2017/driving-the-future/landing/images/car.gif"></div>
   </div>
 
 </div>
 
 
-<div id="dtf-stories">
-    
-  <% json.dtf0716_landing_page.stories.forEach(function(story) { %>
-    <div class="dtf-story">
-      <a href="<%= story.Url %>">
-        <img src="<%= story.Image %>">
-        <h2><%= story.Title %></h2>
+
+  <div class="dtf-main">
+    <div class="story">
+      <a href="http://www.sfchronicle.com/business/article/How-the-Bay-Area-took-over-the-self-driving-car-11278238.php">
+        <img src="http://ww3.hdnux.com/photos/62/35/64/12657235/3/premium_landscape.jpg">
+        <h2>How the Bay Area took over the self-driving car business</h2>
       </a>
     </div>
-  <% }); %>
-
+    <div class="story">
+      <a href="http://www.sfchronicle.com/business/article/Driverless-milestone-No-Hands-Across-America-11278241.php">
+        <img src="http://ww3.hdnux.com/photos/07/76/55/13239349/5/premium_landscape.jpg">
+        <h2>Driverless milestone: No Hands Across America</h2>
+      </a>
+    </div>
+  
+    <div class="story">
+      <a href="http://sfchronicle.com/drivingthefuture/timeline/">
+        <img src="http://ww3.hdnux.com/photos/62/32/57/13216750/3/premium_landscape.jpg">
+        <h2>Timeline: The road from fantasy to fruition</h2>
+      </a>
+    </div>
+  </div>
 </div>
+  
+
 
 <script>
   $(".dtf-btn").click(function() {
     $('html,body').animate({
-       scrollTop: $("#dtf-stories").offset().top
+       scrollTop: $(".dtf-main").offset().top
     });
   });
 </script>
